@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Control</title>
+</head>
+
+<body>
+    <h1>Keyboard Control</h1>
+    <button id="upButton">Up</button>
+    <button id="leftButton">Left</button>
+    <button id="rightButton">Right</button>
+    <button id="downButton">Down</button>
+
+    <script>
+        document.getElementById('upButton').addEventListener('click', () => {
+            fetch('/control?key=up');
+        });
+        document.getElementById('leftButton').addEventListener('click', () => {
+            fetch('/control?key=left');
+        });
+        document.getElementById('rightButton').addEventListener('click', () => {
+            fetch('/control?key=right');
+        });
+        document.getElementById('downButton').addEventListener('click', () => {
+            fetch('/control?key=down');
+        });
+    </script>
+</body>
+
+</html>
