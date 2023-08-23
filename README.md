@@ -8,5 +8,5 @@ I have a favorite fast-forward speed for films when watching. However, the remot
 - systems: macos montery 12.x, ios 16.x, nodejs 18.x
 - make sure the mac and iphone is connected same Wifi
 - npm i && node server
-- just open the link lan like `http://192.168.1.2:3000` on the phone
-- enjoy control the mac on the couch and girl friend
+- just open the link lan ip on the log like `http://192.168.1.2:3000` on the phone
+- enjoy control the mac on the couch with girl friend
