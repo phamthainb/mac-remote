@@ -29,7 +29,7 @@ app.use(express.static('public'));
 
 app.get('/control', (req, res) => {
     const key = req.query.key;
-    console.log({ key });
+    // console.log({ key });
     robot.keyTap(key);
     res.sendStatus(200);
 });
